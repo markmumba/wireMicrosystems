@@ -1,3 +1,9 @@
+import router from "../assets/images/router.png";
+import switche from "../assets/images/switch.png";
+import rack from "../assets/images/rack.png";
+import ethernet from "../assets/images/ethernet.png";
+import fiber from "../assets/images/fiber.png";
+import modem from "../assets/images/modem.png";
 
 function Products() {
   return (
@@ -8,57 +14,43 @@ function Products() {
       <div className="text-black text-center text-lg leading-7 max-w-screen-md mt-6 max-md:max-w-full">
         Browse our successful networking equipment installations
       </div>
-      <form className="self-stretch mt-36 py-5 max-md:max-w-full max-md:mt-10">
+      <form className="self-stretch mt-36 py-5 md:px-40  max-md:max-w-full max-md:mt-10">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[34%] max-md:w-full max-md:ml-0">
-            <img
-              loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/0a4155ca34fea1f1d7c18ca06e049c770dc89a3c42605af0dc9fe229b7644cc8?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/0a4155ca34fea1f1d7c18ca06e049c770dc89a3c42605af0dc9fe229b7644cc8?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0a4155ca34fea1f1d7c18ca06e049c770dc89a3c42605af0dc9fe229b7644cc8?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/0a4155ca34fea1f1d7c18ca06e049c770dc89a3c42605af0dc9fe229b7644cc8?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/0a4155ca34fea1f1d7c18ca06e049c770dc89a3c42605af0dc9fe229b7644cc8?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/0a4155ca34fea1f1d7c18ca06e049c770dc89a3c42605af0dc9fe229b7644cc8?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/0a4155ca34fea1f1d7c18ca06e049c770dc89a3c42605af0dc9fe229b7644cc8?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/0a4155ca34fea1f1d7c18ca06e049c770dc89a3c42605af0dc9fe229b7644cc8?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&"className="aspect-square object-contain object-center w-full overflow-hidden max-md:mt-10"
-              alt="Networking Equipment 1"
-            />
+            <img loading="lazy" srcSet={router} className="w-[400px] h-[400px]  rounded-lg object-contain bg-gray-300 p-10" alt="Networking Equipment 1" />
+            <p className="text-black  text-2xl font-bold text-center">Router</p>
           </div>
           <div className="flex flex-col items-stretch w-[34%] ml-5 max-md:w-full max-md:ml-0">
-            <img
-              loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/976689378e63ae9b6c59b5f9a8eb101373553b62245609c9777a9dd46fcee493?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/976689378e63ae9b6c59b5f9a8eb101373553b62245609c9777a9dd46fcee493?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/976689378e63ae9b6c59b5f9a8eb101373553b62245609c9777a9dd46fcee493?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/976689378e63ae9b6c59b5f9a8eb101373553b62245609c9777a9dd46fcee493?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/976689378e63ae9b6c59b5f9a8eb101373553b62245609c9777a9dd46fcee493?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/976689378e63ae9b6c59b5f9a8eb101373553b62245609c9777a9dd46fcee493?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/976689378e63ae9b6c59b5f9a8eb101373553b62245609c9777a9dd46fcee493?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/976689378e63ae9b6c59b5f9a8eb101373553b62245609c9777a9dd46fcee493?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&"className="aspect-square object-contain object-center w-full overflow-hidden max-md:mt-10"
-              alt="Networking Equipment 2"
-            />
+            <img loading="lazy" srcSet={switche} className="w-[400px] h-[400px]  rounded-lg object-contain bg-gray-300 p-10 " alt="Networking Equipment 2" />
+            <p className="text-black  text-2xl font-bold text-center">Switch</p>
           </div>
           <div className="flex flex-col items-stretch w-[32%] ml-5 max-md:w-full max-md:ml-0">
-            <img
-              loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/1ffb1c911a3dca6cb8d0d67d7e714ed027c7382585dc820a944a5268fead6976?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/1ffb1c911a3dca6cb8d0d67d7e714ed027c7382585dc820a944a5268fead6976?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1ffb1c911a3dca6cb8d0d67d7e714ed027c7382585dc820a944a5268fead6976?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/1ffb1c911a3dca6cb8d0d67d7e714ed027c7382585dc820a944a5268fead6976?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/1ffb1c911a3dca6cb8d0d67d7e714ed027c7382585dc820a944a5268fead6976?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/1ffb1c911a3dca6cb8d0d67d7e714ed027c7382585dc820a944a5268fead6976?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/1ffb1c911a3dca6cb8d0d67d7e714ed027c7382585dc820a944a5268fead6976?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/1ffb1c911a3dca6cb8d0d67d7e714ed027c7382585dc820a944a5268fead6976?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&"className="aspect-[0.95] object-contain object-center w-full overflow-hidden max-md:mt-10"
-              alt="Networking Equipment 3"
-            />
+            <img loading="lazy" srcSet={rack} className=" w-[400px] h-[400px]  rounded-lg object-contain bg-gray-300 p-10" alt="Networking Equipment 3" />
+            <p className="text-black  text-2xl font-bold text-center">Rack</p>
           </div>
         </div>
       </form>
-      <form className="self-stretch mt-8 mb-10 max-md:max-w-full">
+      <form className="self-stretch mt-8 mb-10 md:px-40 max-md:max-w-full">
         <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-[33%] max-md:w-full max-md:ml-0">
             <img
               loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7c8d1d67500e34029347ce1aef5d397465bbbe4872bc64356fe7f964b7877b4b?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7c8d1d67500e34029347ce1aef5d397465bbbe4872bc64356fe7f964b7877b4b?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7c8d1d67500e34029347ce1aef5d397465bbbe4872bc64356fe7f964b7877b4b?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7c8d1d67500e34029347ce1aef5d397465bbbe4872bc64356fe7f964b7877b4b?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7c8d1d67500e34029347ce1aef5d397465bbbe4872bc64356fe7f964b7877b4b?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7c8d1d67500e34029347ce1aef5d397465bbbe4872bc64356fe7f964b7877b4b?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7c8d1d67500e34029347ce1aef5d397465bbbe4872bc64356fe7f964b7877b4b?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7c8d1d67500e34029347ce1aef5d397465bbbe4872bc64356fe7f964b7877b4b?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&"className="aspect-[1.11] object-contain object-center w-full overflow-hidden grow max-md:mt-8"
+              srcSet={ethernet} className=" md:w-[400px] md:h-[400px]  rounded-lg object-contain bg-gray-300 p-10"
               alt="Networking Equipment 4"
             />
+            <p className="text-black  text-2xl font-bold text-center">Ethernet</p>
           </div>
           <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
-            <img
-              loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/e4a7c273fdfc491372fb817bba4d318579df3ae3512e48d0023e42bdcb86bbad?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/e4a7c273fdfc491372fb817bba4d318579df3ae3512e48d0023e42bdcb86bbad?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e4a7c273fdfc491372fb817bba4d318579df3ae3512e48d0023e42bdcb86bbad?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/e4a7c273fdfc491372fb817bba4d318579df3ae3512e48d0023e42bdcb86bbad?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/e4a7c273fdfc491372fb817bba4d318579df3ae3512e48d0023e42bdcb86bbad?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/e4a7c273fdfc491372fb817bba4d318579df3ae3512e48d0023e42bdcb86bbad?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/e4a7c273fdfc491372fb817bba4d318579df3ae3512e48d0023e42bdcb86bbad?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/e4a7c273fdfc491372fb817bba4d318579df3ae3512e48d0023e42bdcb86bbad?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&"className="aspect-[1.11] object-contain object-center w-full overflow-hidden grow max-md:mt-8"
-              alt="Networking Equipment 5"
-            />
+            <img loading="lazy" srcSet={fiber} className=" md:w-[400px] md:h-[400px]  rounded-lg object-contain bg-gray-300 p-10" alt="Networking Equipment 5" />
+            <p className="text-black  text-2xl font-bold text-center">Fiber</p>
           </div>
           <div className="flex flex-col items-stretch w-[33%] ml-5 max-md:w-full max-md:ml-0">
-            <img
-              loading="lazy"
-              srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/ea687f157cef6d930979aa60c5e462a1be6b51a9accfc092a8e95baea4d50e18?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ea687f157cef6d930979aa60c5e462a1be6b51a9accfc092a8e95baea4d50e18?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ea687f157cef6d930979aa60c5e462a1be6b51a9accfc092a8e95baea4d50e18?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ea687f157cef6d930979aa60c5e462a1be6b51a9accfc092a8e95baea4d50e18?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ea687f157cef6d930979aa60c5e462a1be6b51a9accfc092a8e95baea4d50e18?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ea687f157cef6d930979aa60c5e462a1be6b51a9accfc092a8e95baea4d50e18?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ea687f157cef6d930979aa60c5e462a1be6b51a9accfc092a8e95baea4d50e18?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/ea687f157cef6d930979aa60c5e462a1be6b51a9accfc092a8e95baea4d50e18?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&"className="aspect-[1.11] object-contain object-center w-full overflow-hidden grow max-md:mt-8"
-              alt="Networking Equipment 6"
-            />
+            <img loading="lazy" srcSet={modem} className=" md:w-[400px] md:h-[400px]  rounded-lg object-contain bg-gray-300 p-10" alt="Networking Equipment 6" />
+            <p className="text-black  text-2xl font-bold text-center">Modem</p>
           </div>
         </div>
       </form>
     </div>
   );
 }
-export default Products ;
+export default Products;

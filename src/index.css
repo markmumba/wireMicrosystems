@@ -14,3 +14,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@layer base{
+  li {
+      @apply md:p-3  p-2 text-sm md:text-base
+  }
+}

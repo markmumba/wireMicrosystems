@@ -139,7 +139,7 @@ function  Contact(props) {
       <div className="bg-black flex shrink-0 h-px flex-col mt-20 max-md:max-w-full max-md:mt-10" />
       <div className="justify-between items-stretch flex w-full gap-5 mt-8 mb-8 max-md:max-w-full max-md:flex-wrap">
         <div className="text-black text-sm leading-5 grow whitespace-nowrap">
-          © 2023 Relume. All rights reserved.
+          © 2023 The wire. All rights reserved.
         </div>
         <div className="items-stretch flex justify-between gap-5 max-md:justify-center">
           <div className="text-black text-sm leading-5 underline whitespace-nowrap">

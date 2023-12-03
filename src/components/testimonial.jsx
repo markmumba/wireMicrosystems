@@ -11,7 +11,7 @@ function Testimonial() {
         Hear what our customers have to say about our products and cost savings.
       </div>
       <div className="justify-center self-stretch mt-20 max-md:max-w-full max-md:mt-10">
-        <div className="gap-5 flex md:px-20 max-md:flex-col max-md:items-stretch max-md:gap-0">
+        <div className="gap-5 flex px-20 max-md:flex-col max-md:items-stretch max-md:gap-0">
           <div className="flex flex-col items-stretch w-6/12 max-md:w-full max-md:ml-0">
             <div className="items-stretch flex grow flex-col max-md:max-w-full max-md:mt-10">
               <div className="items-stretch flex w-[116px] max-w-full gap-1 self-start max-md:justify-center">
@@ -60,11 +60,7 @@ function Testimonial() {
                   </div>
                 </div>
                 <div className="bg-black self-stretch w-px shrink-0 h-[61px]" />
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/068770d480626fb16b61a4c9daf02e9a0015cca5d8ebfbbae9bd57eb331a73cb?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&"
-                  className="aspect-[2.5] object-contain object-center w-[120px] overflow-hidden self-center shrink-0 max-w-full my-auto"
-                />
+          
               </div>
             </div>
           </div>
@@ -116,11 +112,7 @@ function Testimonial() {
                   </div>
                 </div>
                 <div className="bg-black self-stretch w-px shrink-0 h-[61px]" />
-                <img
-                  loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/068770d480626fb16b61a4c9daf02e9a0015cca5d8ebfbbae9bd57eb331a73cb?apiKey=f0c7f3edffe4460ca2a52c85cd1fec66&"
-                  className="aspect-[2.5] object-contain object-center w-[120px] overflow-hidden self-center shrink-0 max-w-full my-auto"
-                />
+         
               </div>
             </div>
           </div>

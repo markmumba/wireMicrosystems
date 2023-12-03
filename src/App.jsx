@@ -1,3 +1,4 @@
+import Navbar from "./components/navbar";
 import NetworkingComponent from "./components/hero";
 import About from "./components/about";
 import Services from "./components/services";
@@ -8,6 +9,7 @@ import Contact from "./components/contacts";
 function App() {
   return (
     <>
+      <Navbar />
       <NetworkingComponent />
       <About />
       <Services />
